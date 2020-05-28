@@ -1,0 +1,243 @@
+/* menu*/
+
+.containter{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	color: black;
+}
+
+.navigation ul li a:hover{
+	background: #ccc;
+}
+
+.logo{
+	letter-spacing: 10px;
+	font-size: 1.5em;
+}
+
+.header{
+	background: white;
+	padding: 2rem 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.header a{
+	color: black;
+	text-decoration: none;
+}
+
+.main{
+	padding-top: 6rem;
+}
+
+.menu-icon{
+	display: none;
+	color: black;
+}
+
+@media only screen and (max-width: 767px) {
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+		padding: 0.5rem 1rem;
+	}
+	
+	.navigation{
+		width: 100%;
+		margin-top: 1rem;
+	}
+	
+	.navigation ul{
+		display: none;
+	}
+	
+	.navigation ul.mostrar{
+		display: block;
+	}
+	
+	.navigation ul li{
+		display: block;
+	}
+
+	.navigation ul li a{
+		display: block;
+		padding: 0.5rem 0rem;
+		transition: all 0.4s linear;
+	}
+
+	.navigation ul li a:hover{
+		background: #ccc;
+	}
+}
+
+/* lista de modelos*/
+
+.Endiv{
+	border-style:double;
+	border-color:silver;
+	border-spacing:2%;
+	border-radius: 10px;
+}
+
+.im{
+	height: 650px;
+	width: 100%;
+	margin: auto;
+	display: block;
+	border-radius: 30px;
+	padding: 20px;
+	border: 10px;
+}
+
+.img{
+	height:100px;
+	width: 24.8%;
+}
+
+.logos{
+	float: left; 
+	margin: 10px 15px 15px 0px;
+	height:100px;
+	width:200px;
+	margin-left: 2em;
+}
+
+.div{
+	
+	border-style:double;
+	border-spacing:3%;
+	text-align:justify;
+	color:#CD853F;
+	border-color:#CD853F;
+	
+}
+
+.aa{
+	color:#CD853F;
+}
+
+#aaa{
+	align:center;
+	font-family:'Monotype Corsiva';
+	font-size:30px;
+}
+
+a{
+	text-align:center;
+	color:black;
+	text-decoration:none;
+}
+
+
+h3{
+	text-align:center;
+}
+
+a:link{
+	color:blue;
+	
+}
+
+a:hover{
+  font-size:20px;
+  color:#8FBC8F;
+}
+
+a:active{
+	color:#8FBC8F;
+}
+
+a:visited{
+	color:#2F4F4F;
+}
+
+li.modelos{
+	display: inline-block;
+	font-size:20px;
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width: 19%;
+	text-align: center;
+}	
+
+li.modelos+li.modelos{
+	
+}
+
+h1
+{
+	text-align: center;
+	
+}
+
+/*modelos*/
+.hM{
+	font-family:'MS PGothic';
+}
+
+.pE{
+	font-family:'Monotype Corsiva';
+	font-size:30px;
+	text-align:center;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+.pa{
+	font-family:Verdana;
+	font-size:20px;
+	text-align: justify;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.img1{
+
+	height: 400px;
+	width: 550px;
+	margin-left: 30%;
+}
+
+.img2{
+	height: 300px;
+	width: 600px;
+	margin-left: 30%;
+}
+
+.masM{
+	text-align:center;
+	font-family:'Lucida Calligraphy';
+	font-size:30px;
+	text-decoration-line:underline; 
+	Text-decoration-color:#778899;
+	Text-decoration-style:dotted;
+}
+/**/

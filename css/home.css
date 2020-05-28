@@ -1,0 +1,134 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Georgia;
+	font-size: 1rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+div.banner,img.banner{
+	width: 100%;
+	height: 600px;
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+
+h1{
+	font-size: 2rem;
+	line-height: 1.3em;
+}
+
+.main{
+	padding-top: 6rem;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Georgia';
+	font-size: 50px;
+}
+
+p{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 1.5em;
+	font-family: Arial;
+	text-align: justify;
+}
+
+/*menu*/
+
+.containter{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo{
+	letter-spacing: 10px;
+	font-size: 1.5em;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+}
+
+.navigation ul li a:hover{
+	background: #ccc;
+}
+
+.header{
+	background: white;
+	padding: 2rem 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.header a{
+	color: black;
+	text-decoration: none;
+}
+
+.menu-icon{
+	display: none;
+	color: black;
+}
+
+@media only screen and (max-width: 767px) {
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+		padding: 0.5rem 1rem;
+	}
+	
+	.navigation{
+		width: 100%;
+		margin-top: 1rem;
+	}
+	
+	.navigation ul{
+		display: none;
+	}
+	
+	.navigation ul.mostrar{
+		display: block;
+	}
+	
+	.navigation ul li{
+		display: block;
+	}
+
+	.navigation ul li a{
+		display: block;
+		padding: 0.5rem 0rem;
+		transition: all 0.4s linear;
+	}
+
+	.navigation ul li a:hover{
+		background: #ccc;
+	}
+}

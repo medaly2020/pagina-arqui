@@ -1,0 +1,52 @@
+<! DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ClasicaModelos</title>
+		<link rel="stylesheet" type="text/css" href="css/modelos.css"></link>
+	</head>
+	<body>
+		<header class="header">
+			<div class="containter logo-nav-container">
+				<a href="index.html" class="logo">Arquitectura</a>
+				<span class="menu-icon">Ver menu</span>
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="unida1.html">Unidad 1</a></li>
+						<li><a href="unida2.html">Unidad 2</a></li>
+						<li><a href="unida3.html">Unidad 3</a></li>
+						<li><a href="unida4.html">Unidad 4</a></li>
+						<li><a href="galeria.html">Galeria</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<a name="inicio"></a>
+		<main class="main">
+		
+	<div>
+				<h1 class="hM">Modelo 1</h1>
+				<p class="pE"> “Arquitectura Von Newman" </p>
+				<p class="pa">Esta describe una arquitectura de diseño para un computador digital electrónico con partes que constan de una unidad de procesamiento que contiene una unidad aritmético lógica y registros del procesador, una unidad de control que contiene un registro de instrucciones y un contador de programa, una memoria para almacenar tanto datos como instrucciones, almacenamiento masivo externo, y mecanismos de entrada y salida.</p>
+				<img class="img1" src="imagenes/von1.jpg">
+				<img class="img2" src="imagenes/von2.png">
+				<p class="pa">Esta arquitectura se basa en dos conceptos básicos:<br>
+		1) Utilizan sistemas binarios: Simplifica la electrónica y da mayor inmunidad al ruido.<br>
+		2) Almacena la secuencia de programa en memoria: Da mayor velocidad para procesar información.<br>
+
+		La principal desventaja de esta arquitectura, es que el bus de datos y direcciones único se convierte en un cuello de botella por el cual debe pasar toda la información que se lee de o se escribe a la memoria, obligando a que todos los accesos a esta sean secuenciales. Esto limita el grado de paralelismo (acciones que se pueden realizar al mismo tiempo) y por lo tanto, el desempeño de la computadora. Este efecto se conoce como el cuello de botella de Von Newman.</p>
+		<img class="img2" src="imagenes/von3.png">
+		<a href="#inicio">Regresar</a>
+			</div>
+		
+		<h1 class="hM">Modelo 2</h1>
+				<p class="pE"> “Arquitectura Harvard" </p>
+				<p class="pa">Esta arquitectura surgió en la universidad del mismo nombre, poco después de que la arquitectura Von Newman apareciera en la universidad de Princeton. Al igual que en la arquitectura Von Newman, el programa se almacena como un código numérico en la memoria, pero no en el mismo espacio de memoria ni en el mismo formato que los datos. Por ejemplo, se pueden almacenar las instrucciones en doce bits en la memoria de programa, mientras los datos de almacenan en 8 bits en una memoria aparte.</p>
+				<img class="img1" src="imagenes/von4.png">
+				<p class="pa">El hecho de tener un bus separado para el programa y otro para los datos permite que se lea el código de operación de una instrucción, al mismo tiempo se lee de la memoria de datos los operados de la instrucción previa. Así se evita el problema del cuello de botella de Von Newman y se obtiene un mejor desempeño. </p>
+		<a href="#inicio">Regresar</a>
+		</div>
+		</main>
+</html>
